@@ -1,10 +1,11 @@
 from __future__ import print_function
 
-from flask import Flask, jsonify, json, Response, request
-from flask_cors import CORS
-import mysfitsTableClient
 import os
 import sys
+
+import mysfitsTableClient
+from flask import Flask, Response, json, jsonify, request
+from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app)

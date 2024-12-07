@@ -1,8 +1,9 @@
-import boto3
 import json
 import logging
 import os
 from collections import defaultdict
+
+import boto3
 
 # create a DynamoDB client using boto3. The boto3 library will automatically
 # use the credentials associated with our ECS task role to communicate with

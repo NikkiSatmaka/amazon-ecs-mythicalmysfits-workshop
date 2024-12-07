@@ -2,9 +2,10 @@ from __future__ import print_function
 
 import os
 import sys
-import requests
 from urllib.parse import urlparse
-from flask import Flask, jsonify, json, Response, request
+
+import requests
+from flask import Flask, Response, json, jsonify, request
 from flask_cors import CORS
 
 app = Flask(__name__)
